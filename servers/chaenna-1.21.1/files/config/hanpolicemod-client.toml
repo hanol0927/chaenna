@@ -1,0 +1,44 @@
+#HanPolice 클라이언트 설정
+[gui]
+
+	[gui.position]
+		#타이머 패널 오른쪽 여백
+		# Default: 6
+		# Range: 0 ~ 500
+		timer_offset_x = 6
+		#타이머 패널 상단 여백
+		# Default: 6
+		# Range: 0 ~ 500
+		timer_offset_y = 6
+		#보물 액션바 하단 여백
+		# Default: 52
+		# Range: 0 ~ 500
+		treasure_bar_offset_y = 52
+		#알림 패널 세로 위치 비율(0.0~1.0)
+		# Default: 0.18
+		# Range: 0.0 ~ 1.0
+		notif_height_ratio = 0.18
+		#점수 알림 오른쪽 여백
+		# Default: 8
+		# Range: 0 ~ 500
+		score_notif_offset_x = 8
+		#점수 알림 상단 여백
+		# Default: 48
+		# Range: 0 ~ 500
+		score_notif_offset_y = 48
+
+	[gui.text]
+		#경찰 대기 HUD 레이블
+		police_wait = "경찰 대기시간"
+		#라운드 진행 HUD 레이블
+		round_label = "라운드 남은시간"
+		#탈출구 활성화 문구
+		escape_alert = ">> 탈출구 활성화 - 탈출하세요! <<"
+		#점수판 TAB 닫기 힌트
+		tab_hint = "[ TAB ]  닫기"
+		#경찰 팀 헤더
+		police_team = "경찰"
+		#도둑 팀 헤더
+		thief_team = "도둑"
+		#관전자 레이블
+		spectator = "관전자:"
